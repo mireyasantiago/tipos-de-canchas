@@ -1,4 +1,4 @@
-alert("mensaje");
+//alert("mensaje");
 // se llaman los id de los botones
 var botonFut = document.getElementById("futbol");
 var botonBasket = document.getElementById("basket");
@@ -17,8 +17,12 @@ var canchaTenis = document.getElementById("canchaTennis");
 function detectarBoton(event){
     switch(event.toElement){
         case botonFut:
-
+        if(event.detail==1){
             mostrarCancha(canchaFut);
+            }
+        else if (event.detail==2) {
+          ocultarCancha(canchaFut);
+        }
             break;
 
         case botonBasket:
@@ -34,7 +38,7 @@ function detectarBoton(event){
 
 
 function mostrarCancha(cancha){
-    console.log(event);
+    //console.log(event);
     /*con estas propiedades muestra en forma de bloque  */
     cancha.style.display = "block";
 }

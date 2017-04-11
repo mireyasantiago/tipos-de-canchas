@@ -29,16 +29,16 @@ article.derecha{
 }
 
 article.lineaHorizontal{
-background-color: red;
- height: 3px;
- width: 100%;
- margin-top: 15%;
+   background-color: red;
+   height: 3px;
+   width: 100%;
+   margin-top: 15%;
 }
 article.abajo{
-    margin-top: 44%;
+   margin-top: 44%;
 }
 article.lineaCen{
-  background-color: red;
+   background-color: red;
    height: 3px;
    width: 50%;
    margin-top: 30%;
